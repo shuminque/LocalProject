@@ -1,0 +1,214 @@
+2023-08-10 20:13:10.040  INFO 23756 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 23756 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 20:13:10.042  INFO 23756 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 20:13:10.842  INFO 23756 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 20:13:10.850  INFO 23756 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 20:13:10.850  INFO 23756 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 20:13:10.939  INFO 23756 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 20:13:10.939  INFO 23756 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 869 ms
+2023-08-10 20:13:11.395  INFO 23756 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:13:11.449  INFO 23756 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 20:13:11.569  INFO 23756 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 20:13:11.576  INFO 23756 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.896 seconds (JVM running for 2.481)
+2023-08-10 20:13:15.720  INFO 23756 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:13:18.087  INFO 16288 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 16288 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 20:13:18.089  INFO 16288 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 20:13:18.806  INFO 16288 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 20:13:18.813  INFO 16288 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 20:13:18.814  INFO 16288 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 20:13:18.890  INFO 16288 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 20:13:18.890  INFO 16288 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2023-08-10 20:13:19.311  INFO 16288 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:13:19.363  INFO 16288 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 20:13:19.482  INFO 16288 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 20:13:19.489  INFO 16288 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.721 seconds (JVM running for 2.113)
+2023-08-10 20:13:24.011  INFO 16288 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 20:13:24.012  INFO 16288 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 20:13:24.016  INFO 16288 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 20:13:25.612  INFO 16288 --- [http-nio-8080-exec-7] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 20:14:18.447  INFO 16288 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:14:18.450  INFO 16288 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 20:14:22.167  INFO 18260 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 18260 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 20:14:22.170  INFO 18260 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 20:14:22.887  INFO 18260 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 20:14:22.894  INFO 18260 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 20:14:22.895  INFO 18260 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 20:14:22.972  INFO 18260 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 20:14:22.972  INFO 18260 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2023-08-10 20:14:23.392  INFO 18260 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:14:23.443  INFO 18260 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 20:14:23.556  INFO 18260 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 20:14:23.563  INFO 18260 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.756 seconds (JVM running for 2.166)
+2023-08-10 20:14:25.775  INFO 18260 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 20:14:25.775  INFO 18260 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 20:14:25.778  INFO 18260 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2023-08-10 20:14:26.457  INFO 18260 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 20:17:18.500  INFO 18260 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:17:18.503  INFO 18260 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 20:17:21.025  INFO 14368 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 14368 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 20:17:21.028  INFO 14368 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 20:17:21.736  INFO 14368 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 20:17:21.742  INFO 14368 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 20:17:21.743  INFO 14368 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 20:17:21.818  INFO 14368 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 20:17:21.818  INFO 14368 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 763 ms
+2023-08-10 20:17:22.235  INFO 14368 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 20:17:22.286  INFO 14368 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 20:17:22.402  INFO 14368 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 20:17:22.409  INFO 14368 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.714 seconds (JVM running for 2.111)
+2023-08-10 20:17:27.528  INFO 14368 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 20:17:27.528  INFO 14368 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 20:17:27.532  INFO 14368 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 20:17:28.572  INFO 14368 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 21:09:32.283  INFO 14368 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:09:32.284  INFO 14368 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 21:09:36.915  INFO 3336 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 3336 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 21:09:36.917  INFO 3336 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 21:09:37.596  INFO 3336 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 21:09:37.604  INFO 3336 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 21:09:37.604  INFO 3336 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 21:09:37.683  INFO 3336 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 21:09:37.683  INFO 3336 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 741 ms
+2023-08-10 21:09:38.077  INFO 3336 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:09:38.128  INFO 3336 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 21:09:38.239  INFO 3336 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 21:09:38.245  INFO 3336 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.635 seconds (JVM running for 2.005)
+2023-08-10 21:09:41.708  INFO 3336 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 21:09:41.708  INFO 3336 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 21:09:41.711  INFO 3336 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2023-08-10 21:09:42.546  INFO 3336 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 21:43:49.027  INFO 3336 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:43:49.028  INFO 3336 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 21:43:53.741  INFO 2548 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 2548 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 21:43:53.743  INFO 2548 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 21:43:54.457  INFO 2548 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 21:43:54.466  INFO 2548 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 21:43:54.466  INFO 2548 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 21:43:54.544  INFO 2548 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 21:43:54.544  INFO 2548 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2023-08-10 21:43:54.961  INFO 2548 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:43:55.013  INFO 2548 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 21:43:55.128  INFO 2548 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 21:43:55.135  INFO 2548 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.715 seconds (JVM running for 2.101)
+2023-08-10 21:43:58.081  INFO 2548 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 21:43:58.081  INFO 2548 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 21:43:58.085  INFO 2548 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 21:43:59.053  INFO 2548 --- [http-nio-8080-exec-6] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 21:45:38.995  INFO 2548 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:45:38.998  INFO 2548 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 21:45:42.470  INFO 4408 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 4408 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 21:45:42.473  INFO 4408 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 21:45:43.152  INFO 4408 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 21:45:43.159  INFO 4408 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 21:45:43.159  INFO 4408 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 21:45:43.241  INFO 4408 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 21:45:43.242  INFO 4408 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2023-08-10 21:45:43.623  INFO 4408 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 21:45:43.673  INFO 4408 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 21:45:43.785  INFO 4408 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 21:45:43.792  INFO 4408 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.629 seconds (JVM running for 2.007)
+2023-08-10 21:45:47.734  INFO 4408 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 21:45:47.734  INFO 4408 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 21:45:47.738  INFO 4408 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 21:45:49.349  INFO 4408 --- [http-nio-8080-exec-5] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 22:02:29.217  INFO 4408 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:02:29.220  INFO 4408 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 22:02:32.736  INFO 9052 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 9052 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 22:02:32.738  INFO 9052 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 22:02:33.433  INFO 9052 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 22:02:33.441  INFO 9052 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 22:02:33.441  INFO 9052 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 22:02:33.516  INFO 9052 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 22:02:33.516  INFO 9052 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 748 ms
+2023-08-10 22:02:33.908  INFO 9052 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:02:33.956  INFO 9052 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 22:02:34.067  INFO 9052 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 22:02:34.073  INFO 9052 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.644 seconds (JVM running for 2.01)
+2023-08-10 22:03:04.572  INFO 9052 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 22:03:04.572  INFO 9052 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 22:03:04.576  INFO 9052 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2023-08-10 22:03:05.655  INFO 9052 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 22:30:53.755  INFO 9052 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:30:53.758  INFO 9052 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 22:30:57.123  INFO 10208 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 10208 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 22:30:57.125  INFO 10208 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 22:30:57.830  INFO 10208 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 22:30:57.837  INFO 10208 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 22:30:57.837  INFO 10208 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 22:30:57.914  INFO 10208 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 22:30:57.914  INFO 10208 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 760 ms
+2023-08-10 22:30:58.301  INFO 10208 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:30:58.352  INFO 10208 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 22:30:58.460  INFO 10208 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 22:30:58.467  INFO 10208 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.651 seconds (JVM running for 2.024)
+2023-08-10 22:31:02.166  INFO 10208 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 22:31:02.166  INFO 10208 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 22:31:02.170  INFO 10208 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 22:31:02.973  INFO 10208 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 22:32:22.718  INFO 10208 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:32:22.721  INFO 10208 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 22:32:29.553  INFO 14508 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 14508 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 22:32:29.555  INFO 14508 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 22:32:30.263  INFO 14508 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 22:32:30.272  INFO 14508 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 22:32:30.272  INFO 14508 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 22:32:30.350  INFO 14508 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 22:32:30.351  INFO 14508 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 770 ms
+2023-08-10 22:32:30.734  INFO 14508 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 22:32:30.783  INFO 14508 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 22:32:30.895  INFO 14508 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 22:32:30.902  INFO 14508 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.647 seconds (JVM running for 2.155)
+2023-08-10 22:33:21.574  INFO 14508 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 22:33:21.574  INFO 14508 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 22:33:21.578  INFO 14508 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 22:33:22.524  INFO 14508 --- [http-nio-8080-exec-8] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 23:04:16.659  INFO 14508 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:04:16.662  INFO 14508 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 23:04:22.023  INFO 24972 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 24972 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 23:04:22.025  INFO 24972 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 23:04:22.788  INFO 24972 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 23:04:22.797  INFO 24972 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 23:04:22.797  INFO 24972 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 23:04:22.872  INFO 24972 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 23:04:22.872  INFO 24972 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 817 ms
+2023-08-10 23:04:23.290  INFO 24972 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:04:23.342  INFO 24972 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 23:04:23.454  INFO 24972 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 23:04:23.460  INFO 24972 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.782 seconds (JVM running for 2.232)
+2023-08-10 23:04:26.907  INFO 24972 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 23:04:26.908  INFO 24972 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 23:04:26.912  INFO 24972 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 23:04:28.046  INFO 24972 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 23:30:14.439  INFO 24972 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:30:14.441  INFO 24972 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 23:30:18.575  INFO 23532 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 23532 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 23:30:18.577  INFO 23532 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 23:30:19.274  INFO 23532 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 23:30:19.282  INFO 23532 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 23:30:19.282  INFO 23532 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 23:30:19.349  INFO 23532 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 23:30:19.349  INFO 23532 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2023-08-10 23:30:19.739  INFO 23532 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:30:19.789  INFO 23532 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 23:30:19.898  INFO 23532 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 23:30:19.904  INFO 23532 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.645 seconds (JVM running for 2.027)
+2023-08-10 23:30:23.481  INFO 23532 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 23:30:23.481  INFO 23532 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 23:30:23.485  INFO 23532 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-08-10 23:30:24.835  INFO 23532 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-08-10 23:55:54.363  INFO 23532 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:55:54.366  INFO 23532 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-08-10 23:55:59.022  INFO 19772 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Starting DepositoryManageApplication on LAPTOP-H19ORN5S with PID 19772 (C:\Users\Q\Desktop\副本\WlCk-master\target\classes started by Q in C:\Users\Q\Desktop\副本\WlCk-master)
+2023-08-10 23:55:59.024  INFO 19772 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : The following profiles are active: test
+2023-08-10 23:55:59.711  INFO 19772 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 23:55:59.718  INFO 19772 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-08-10 23:55:59.718  INFO 19772 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-08-10 23:55:59.793  INFO 19772 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-08-10 23:55:59.794  INFO 19772 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2023-08-10 23:56:00.186  INFO 19772 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-10 23:56:00.236  INFO 19772 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-08-10 23:56:00.346  INFO 19772 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 23:56:00.352  INFO 19772 --- [main] com.dreamchaser.depository_manage.DepositoryManageApplication : Started DepositoryManageApplication in 1.638 seconds (JVM running for 2.009)
+2023-08-10 23:56:04.710  INFO 19772 --- [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 23:56:04.712  INFO 19772 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-08-10 23:56:04.715  INFO 19772 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2023-08-10 23:56:05.810  INFO 19772 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited

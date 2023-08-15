@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2TgDB9jpPai3A4RBCsExEY42dFF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Q/Desktop/副本/WlCk-master/src/main/resources/templates/pages/other&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;207ed80db2467fc66a92b7113f56387f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Q\Desktop\副本\WlCk-master\src\main\resources\templates\pages\other" />
+      <recent name="C:\Users\Q\Desktop\副本\WlCk-master\src\main\java\com\dreamchaser\depository_manage\mapper" />
+      <recent name="C:\Users\Q\Desktop\副本\WlCk-master\src\main\resources\templates\pages\application" />
+      <recent name="C:\Users\Q\Desktop\副本\WlCk-master\src\main\resources\static\api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dreamchaser.depository_manage.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DepositoryManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="depository_manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dreamchaser.depository_manage.DepositoryManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="" />
+      <created>1691455694708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691455694708</updated>
+      <workItem from="1691455696212" duration="1457000" />
+      <workItem from="1691459201678" duration="3095000" />
+      <workItem from="1691463707277" duration="3940000" />
+      <workItem from="1691472988798" duration="2961000" />
+      <workItem from="1691476433878" duration="3987000" />
+      <workItem from="1691491637519" duration="7648000" />
+      <workItem from="1691505322030" duration="1098000" />
+      <workItem from="1691539314466" duration="22910000" />
+      <workItem from="1691625517692" duration="5389000" />
+      <workItem from="1691649626455" duration="888000" />
+      <workItem from="1691654538838" duration="988000" />
+      <workItem from="1691655535833" duration="75000" />
+      <workItem from="1691655759716" duration="13000" />
+      <workItem from="1691669546477" duration="13939000" />
+      <workItem from="1691684938413" duration="5940000" />
+      <workItem from="1691712836209" duration="669000" />
+      <workItem from="1691713573445" duration="109000" />
+      <workItem from="1691713690288" duration="17632000" />
+      <workItem from="1691741050017" duration="78000" />
+      <workItem from="1691911925402" duration="129000" />
+      <workItem from="1691933933246" duration="3000" />
+      <workItem from="1691935712842" duration="7000" />
+      <workItem from="1691977961949" duration="7854000" />
+      <workItem from="1691992720052" duration="7574000" />
+      <workItem from="1692000313662" duration="3303000" />
+      <workItem from="1692058379695" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>入库申请</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/static/lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="/static/css/public.css" media="all">
+    <link rel="stylesheet" href="/static/js/lay-module/step-lay/step.css" media="all">
+    <script src="/static/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="layuimini-container">
+    <div class="layuimini-main">
+        <div class="layui-fluid">
+            <div class="layui-card">
+                <div class="layui-card-body" style="padding-top: 40px;">
+                    <div class="layui-carousel" id="stepForm" lay-filter="stepForm" style="margin: 0 auto;">
+                        <div carousel-item>
+                            <div>
+                                <form class="layui-form" style="margin: 0 auto;max-width: 460px;padding-top: 40px;">
+<!--                                    <div class="layui-form-item" >-->
+<!--                                        <label class="layui-form-label">厂区:</label>-->
+<!--                                        <div class="layui-input-block">-->
+<!--                                            <select name="depositoryId" lay-verify="required" id="depositorySelect">-->
+<!--                                                <option th:each="depository,iterStar:${depositories}" th:value="${depository?.getId()}" th:text="${depository?.getDname()}" ></option>-->
+<!--                                            </select>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">品名:</label>
+                                        <div class="layui-input-block">
+                                            <input name="mname" type="text" id="materialSelect" placeholder="请填写品名" readonly class="layui-input" lay-verify="required" />
+                                            <!-- 隐藏的输入字段用于传递AT号和厂区ID -->
+                                            <input name="atId" type="hidden" id="atIdSelect" />
+                                            <input name="depositoryId" type="hidden" id="depositorySelect" />
+                                            <input name="model" type="hidden" id="modelSelect" />
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">数量:</label>
+                                        <div class="layui-input-block">
+                                            <input name="quantity" type="number" placeholder="请填写数量" value="" class="layui-input" lay-verify="number" required>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">货币类型:</label>
+                                        <div class="layui-input-block">
+                                            <select name="currency" class="layui-select" lay-filter="currencyFilter">
+                                                <option value="CNY">人民币</option>
+                                                <option value="JPY">日元</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label" id="priceLabel">入库单价:</label>
+                                        <div class="layui-input-block">
+                                            <input name="price" type="number" placeholder="请填写入库单价" value="" class="layui-input" lay-verify="number" required>
+                                            <input name="convertedPrice" type="hidden" value="">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="layui-form-item" id="conversionDiv" style="display: none;">
+                                        <label class="layui-form-label">转为人民币:</label>
+                                        <div class="layui-input-block">
+                                            <input name="conversion" type="text" placeholder="转换后的人民币" value="" class="layui-input" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">入库类型:</label>
+                                        <div class="layui-input-block">
+                                            <select name="applyRemark" class="layui-select">
+                                                <option value="采购入库">采购入库</option>
+                                                <option value="领用退回">领用退回</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">审核人:</label>
+                                        <div class="layui-input-block">
+                                            <select name="reviewerId" lay-verify="required">
+<!--                                                <option th:each="reviewer,iterStat:${reviewers}" th:value="${reviewer?.getId()}" th:text="${reviewer?.getUname()}" selected>张三</option>-->
+                                                <option value="21">李二</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <div class="layui-input-block">
+                                            <button class="layui-btn" lay-submit lay-filter="formStep">
+                                                &emsp;提交&emsp;
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div>
+                                <form class="layui-form" style="margin: 0 auto;max-width: 460px;padding-top: 40px;">
+                                    <div style="text-align: center;margin-top: 90px;">
+                                        <i class="layui-icon layui-circle"
+                                           style="color: white;font-size:30px;font-weight:bold;background: #52C41A;padding: 20px;line-height: 80px;">&#xe605;</i>
+                                        <div style="font-size: 24px;color: #333;font-weight: 500;margin-top: 30px;">
+                                            提交申请成功
+                                        </div>
+                                        <div style="font-size: 14px;color: #666;margin-top: 20px;">预计审核时间为1天</div>
+                                    </div>
+                                    <div style="text-align: center;margin-top: 50px;">
+                                        <button  class="layui-btn next">返回</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div style="color: #666;margin-top: 30px;margin-bottom: 40px;padding-left: 30px;">
+                    <h3>说明</h3><br>
+                    申请提交后，24小时内审核完毕
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/static/js/lay-config.js?v=1.0.4" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" charset="utf-8"></script>
+<script>
+    var depositoryMapping = {
+        'SAB': 1, // 你的实际映射
+        'ZAB': 2,
+    };
+    // 提交入库申请
+    function submitApplication() {
+        var currencyFrom = $("select[name='currency']").val();
+        var currencyTo = "CNY"; // 目标货币
+        var submissionDate = new Date(); // 提交时间
+
+        // 获取汇率
+        $.ajax({
+            url: "/getRate", // 获取汇率的URL
+            type: "GET",
+            data: {
+                currency_from: currencyFrom,
+                currency_to: currencyTo,
+                date: submissionDate
+            },
+            success: function(rate) {
+                // 使用汇率来转换金额
+                var price = $("input[name='price']").val();
+                var convertedPrice = price * rate.rate; // 请根据返回的数据结构调整
+                $("input[name='convertedPrice']").val(convertedPrice.toFixed(2));
+            }
+        });
+    }
+
+    layui.use([ 'form', 'step', 'tableSelect'], function () {
+        var $ = layui.$,
+            form = layui.form,
+            step = layui.step,
+            tableSelect = layui.tableSelect;
+
+        step.render({
+            elem: '#stepForm',
+            filter: 'stepForm',
+            width: '100%', //设置容器宽度
+            stepWidth: '750px',
+            height: '600px',
+            stepItems: [{
+                title: '申请中'
+            }, {
+                title: '审核中'
+            }, {
+                title: '入库'
+            }]
+        });
+        form.on('select(currencyFilter)', function (data) {
+            handleCurrencyChange();
+        });
+        form.on('submit(formStep)', function (data) {
+            var currency = document.getElementsByName('currency')[0].value;
+            if (currency === 'JPY') {
+                data.field.price = document.getElementsByName('convertedPrice')[0].value;
+            }
+            data=data.field;
+            data.type=1;
+            var urlParams = new URLSearchParams(window.location.search);
+            var id = urlParams.get('id');
+            var currentPage = sessionStorage.getItem('currentPage');
+            var isEditing = id != null;
+            var url = isEditing ? '/depositoryRecord/' + id : '/depositoryRecord';
+            var method = isEditing ? 'PUT' : 'POST';
+            $.ajax({
+                url: url,
+                type: method,
+                dataType: 'json',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify(data),
+                beforeSend:function () {
+                    this.layerIndex = layer.load(0, { shade: [0.5, '#393D49'] });
+                },
+                success:function(data){
+                    layer.close(this.layerIndex);
+                    if(data.status >= 300){
+                        layer.msg(data.statusInfo.message);//失败的表情
+                        return;
+                    }else{
+                        layer.msg("申请提交成功", {
+                            icon: 6,//成功的表情
+                            time: 500 //1秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            if (method === 'PUT') {
+                                // window.location.href = '/table_in' ; // 返回编辑页面
+                                parent.layer.closeAll(); // 关闭所有父页面的弹窗
+                            } else if (method === 'POST') {
+                                step.next('#stepForm'); // 进入下一步
+                            }
+                        });
+                    }
+                },
+                complete: function () {
+                    layer.close(this.layerIndex);
+                }
+            })
+            return false;
+        });
+
+
+        var userDepositoryId;
+        $.ajax({
+            url: '/get_user_depository',
+            type: 'GET',
+            dataType: 'json',
+            success: function(data) {
+                let pp;
+                var userDepositoryId = data.depositoryId;
+                // 如果depositoryId为0，则允许访问两个厂区
+                if (userDepositoryId === 0) {
+                    pp = '/material';
+                } else {
+                     pp = '/material?depositoryId=' + userDepositoryId;
+                }
+                tableSelect.render({
+                    elem: '#materialSelect', // 定义输入框input对象
+                    checkedKey: 'id', // 表格的唯一建值
+                    searchType: 'more',
+                    searchList : [
+                        {searchKey: 'atId', searchPlaceholder: "搜索AT号"},
+                        {searchKey: 'mname', searchPlaceholder: "搜索品名"},
+                    ],
+                    table: { // 定义表格参数
+                        url: pp,
+                        parseData: function (res) { //res 即为原始返回的数据
+                            return {
+                                "status": res.status, //解析接口状态
+                                "message": res.statusInfo.message, //解析提示文本
+                                "count": res.count, //解析数据长度
+                                "data": res.data //解析数据列表
+                            };
+                        },
+                        request: {
+                            pageName: 'page', //页码的参数名称，默认：page
+                            limitName: 'size' //每页数据量的参数名，默认：limit
+                        },
+                        response: {
+                            statusName: 'status' //规定数据状态的字段名称，默认：code
+                            ,statusCode: 200 //规定成功的状态码，默认：0
+                            ,msgName: 'message' //规定状态信息的字段名称，默认：msg
+                            ,countName: 'count' //规定数据总数的字段名称，默认：count
+                            ,dataName: 'data' //规定数据列表的字段名称，默认：data
+                        },
+                        cols: [ [
+                            {type: 'radio'},
+                            {field: 'depositoryName', width:'6%', title: '厂区'},
+                            {field: 'atId', width:'6%', title: 'AT'},
+                            {field: 'mname', width:'12%', title: '品名'},
+                            {field: 'model', title: '规格'},
+                            {field: 'typeName',  title: '类型'},
+                            {field: 'enginName',title: '工程'},
+                        ]],
+                        limits: [10, 15, 20, 25, 50],
+                        limit: 10,
+                        page: true,
+                        skin: 'line'
+                    },
+                    done: function (elem, data) {
+                        // 获取选中的数据
+                        var selectedData = data.data[0];
+                        $('#materialSelect').val(selectedData.mname);
+                        $('#atIdSelect').val(selectedData.atId);
+                        $('#modelSelect').val(selectedData.model);
+                        var depositoryId = depositoryMapping[selectedData.depositoryName];
+                        $('#depositorySelect').val(depositoryId);
+                        // // 获取物品的厂区名称
+                        // var depositoryName = selectedData.depositoryName; // 请确保这是正确的属性名
+                        //
+                        // // 使用厂区名称来设置选择框的值
+                        // $("#depositorySelect option").each(function() {
+                        //     if ($(this).text() === depositoryName) {
+                        //         $(this).prop("selected", true);
+                        //     }
+                        // });
+                        // 重新渲染表单
+                        layui.form.render('select');
+                    }
+                });
+            },
+            error: function() {
+                // 处理错误，例如显示一个消息
+                layer.msg('无法获取用户的厂区信息');
+            }
+        });
+
+        form.on('submit(formStep2)', function (data) {
+            step.next('#stepForm');
+            return false;
+        });
+        $('.pre').click(function () {
+            step.pre('#stepForm');
+        });
+
+        $('.next').click(function () {
+            step.next('#stepForm');
+        });
+
+        $(document).ready(function() {
+            // 获取URL中的查询参数
+            var urlParams = new URLSearchParams(window.location.search);
+            var id = urlParams.get('id');
+            if (id) {
+                $.get('/get_record?id=' + id, function(data) {
+                    // 填充表单
+                    $('input[name="depositoryId"]').val(data.depositoryId);
+                    $('input[name="atId"]').val(data.atId);
+                    $('input[name="mname"]').val(data.mname);
+                    $('input[name="quantity"]').val(data.quantity);
+                    $('select[name="currency"]').val(data.currency);
+                    $('input[name="price"]').val(data.price);
+                    $('select[name="applyRemark"]').val(data.applyRemark);
+                    $('select[name="reviewerId"]').val(data.reviewerId);
+                    $('input[name="model"]').val(data.model);
+                    // 重新渲染表单
+                    layui.form.render();
+                });
+            }
+        });
+    });
+    document.getElementsByName('price')[0].oninput = handleCurrencyChange;
+    handleCurrencyChange();
+</script>
+</body>
+</html>
