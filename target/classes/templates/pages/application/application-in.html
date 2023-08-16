@@ -63,13 +63,6 @@
                                         </div>
                                     </div>
 
-
-                                    <div class="layui-form-item" id="conversionDiv" style="display: none;">
-                                        <label class="layui-form-label">转为人民币:</label>
-                                        <div class="layui-input-block">
-                                            <input name="conversion" type="text" placeholder="转换后的人民币" value="" class="layui-input" readonly>
-                                        </div>
-                                    </div>
                                     <div class="layui-form-item">
                                         <label class="layui-form-label">入库类型:</label>
                                         <div class="layui-input-block">
@@ -131,29 +124,6 @@
         'SAB': 1, // 你的实际映射
         'ZAB': 2,
     };
-    // 提交入库申请
-    function submitApplication() {
-        var currencyFrom = $("select[name='currency']").val();
-        var currencyTo = "CNY"; // 目标货币
-        var submissionDate = new Date(); // 提交时间
-
-        // 获取汇率
-        $.ajax({
-            url: "/getRate", // 获取汇率的URL
-            type: "GET",
-            data: {
-                currency_from: currencyFrom,
-                currency_to: currencyTo,
-                date: submissionDate
-            },
-            success: function(rate) {
-                // 使用汇率来转换金额
-                var price = $("input[name='price']").val();
-                var convertedPrice = price * rate.rate; // 请根据返回的数据结构调整
-                $("input[name='convertedPrice']").val(convertedPrice.toFixed(2));
-            }
-        });
-    }
 
     layui.use([ 'form', 'step', 'tableSelect'], function () {
         var $ = layui.$,
@@ -175,16 +145,41 @@
                 title: '入库'
             }]
         });
-        form.on('select(currencyFilter)', function (data) {
-            handleCurrencyChange();
+        var cnyToJpyRate; // 保存从数据库获取的人民币到日元的汇率
+        // 载入页面时获取汇率
+        $.get('http://localhost:8080/rate', function(response) {
+            var rates = response.data;
+            rates.sort((a, b) => new Date(b.date) - new Date(a.date));
+            cnyToJpyRate = rates[0].rate;
+            console.log(cnyToJpyRate);
         });
-        form.on('submit(formStep)', function (data) {
-            var currency = document.getElementsByName('currency')[0].value;
-            if (currency === 'JPY') {
-                data.field.price = document.getElementsByName('convertedPrice')[0].value;
+        // 定义货币转换函数
+        function convertCurrency(amount, rate) {
+            return amount / rate;
+        }
+        layui.form.on('select(currencyFilter)', function(data){
+            if (data.value === 'JPY') {
+                $('#priceLabel').text("入库单价(JPY):");
+            } else {
+                $('#priceLabel').text("入库单价(CNY):");
             }
+        });
+
+        form.on('submit(formStep)', function (data) {
             data=data.field;
             data.type=1;
+            if (data.currency === 'JPY') {
+                // 如果是日元，转换为人民币并直接保存在price中
+                var jpyPrice = parseFloat(data.price);
+                if (!isNaN(jpyPrice)) {
+                    var cnyPrice = convertCurrency(jpyPrice, cnyToJpyRate);
+                    data.price = cnyPrice.toFixed(2); // 直接修改price字段的值
+                } else {
+                    // 可能要添加一些错误处理，例如弹出一个警告
+                    alert("请输入有效的价格");
+                    return false; // 阻止表单提交
+                }
+            }
             var urlParams = new URLSearchParams(window.location.search);
             var id = urlParams.get('id');
             var currentPage = sessionStorage.getItem('currentPage');
@@ -346,8 +341,6 @@
             }
         });
     });
-    document.getElementsByName('price')[0].oninput = handleCurrencyChange;
-    handleCurrencyChange();
 </script>
 </body>
 </html>
