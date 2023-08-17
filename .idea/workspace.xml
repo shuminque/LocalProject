@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="8.16:下午四点">
+    <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="8.17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/application/application-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/application/application-in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/other/rate_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/other/rate_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/pages/other/rate_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pages/other/rate_add.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +123,7 @@
       <workItem from="1692144681160" duration="609000" />
       <workItem from="1692145796234" duration="9576000" />
       <workItem from="1692164223652" duration="9523000" />
-      <workItem from="1692231846987" duration="1835000" />
+      <workItem from="1692231846987" duration="13194000" />
     </task>
     <task id="LOCAL-00001" summary="主机保存">
       <option name="closed" value="true" />
@@ -155,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692174812750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="8.17">
+      <option name="closed" value="true" />
+      <created>1692233948488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692233948488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +175,7 @@
     <MESSAGE value="主机保存" />
     <MESSAGE value="8.16" />
     <MESSAGE value="8.16:下午四点" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.16:下午四点" />
+    <MESSAGE value="8.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.17" />
   </component>
 </project>
