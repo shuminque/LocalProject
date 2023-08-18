@@ -12,11 +12,8 @@
 <body>
 <div class="layuimini-container">
     <div class="layuimini-main">
-        <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter">
-            <legend>汇率信息</legend>
-        </table>
-        <!-- 添加汇率的按钮 -->
         <button id="addRateBtn" class="layui-btn">添加汇率</button>
+        <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter">  </table>
         <div id="rateAddForm" style="display: none;">
             <fieldset class="table-search-fieldset">
                 <div class="layui-fluid">
@@ -34,7 +31,7 @@
                                         </div>
                                     </div>
                                     <div class="layui-form-item">
-                                        <label class="layui-form-label">日元兑人民币汇率:</label>
+                                        <label class="layui-form-label">汇率:</label>
                                         <div class="layui-input-block">
                                             <input type="text" placeholder="请填写汇率" name="rate" class="layui-input"
                                                    lay-verify="required" required>
@@ -55,7 +52,6 @@
                 </div>
             </fieldset>
         </div>
-
         <script type="text/html" id="operation-bar">
 <!--            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>-->
             <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="delete">删除</a>
@@ -72,7 +68,8 @@
                 laydate = layui.laydate,
                 layer = layui.layer;
             laydate.render({
-                elem: 'input[name="date"]' // 指定元素
+                elem: 'input[name="date"]', // 指定元素
+                type: 'month'
             });
             table.render({
                 elem: "#currentTableId",
