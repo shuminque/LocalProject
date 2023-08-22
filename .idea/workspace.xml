@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="8.18">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ExcelExportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/total_table.html" afterDir="false" />
+    <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="8.22">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/every_type.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ExcelExportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ExcelExportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/mapper/MaterialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/mapper/MaterialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/impl/DepositoryRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/impl/DepositoryRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/mapper/MaterialMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/mapper/MaterialMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/service/impl/DepositoryRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/service/impl/DepositoryRecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/total_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/total_table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -144,6 +137,9 @@
       <workItem from="1692337141739" duration="8234000" />
       <workItem from="1692583784675" duration="8695000" />
       <workItem from="1692666445904" duration="8768000" />
+      <workItem from="1692675302821" duration="2039000" />
+      <workItem from="1692683097772" duration="10832000" />
+      <workItem from="1692707729270" duration="3019000" />
     </task>
     <task id="LOCAL-00001" summary="主机保存">
       <option name="closed" value="true" />
@@ -209,11 +205,30 @@
       <option name="project" value="LOCAL" />
       <updated>1692348869102</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8.22">
+      <option name="closed" value="true" />
+      <created>1692675324393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692675324393</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="主机保存" />
@@ -221,6 +236,7 @@
     <MESSAGE value="8.16:下午四点" />
     <MESSAGE value="8.17" />
     <MESSAGE value="8.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.18" />
+    <MESSAGE value="8.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.22" />
   </component>
 </project>
