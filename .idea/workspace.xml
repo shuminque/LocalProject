@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b8fac5-a2e9-4e06-937a-c376a9ad5cb1" name="更改" comment="8.22">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/every_type.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ExcelExportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ExcelExportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/controller/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dreamchaser/depository_manage/service/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/total_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/total_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/application/application-transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/application/application-transfer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/every_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/chart/every_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/depository/table-stock.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/depository/table-stock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/other/rate_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/other/rate_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dreamchaser/depository_manage/controller/PageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;207ed80db2467fc66a92b7113f56387f&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -139,7 +138,10 @@
       <workItem from="1692666445904" duration="8768000" />
       <workItem from="1692675302821" duration="2039000" />
       <workItem from="1692683097772" duration="10832000" />
-      <workItem from="1692707729270" duration="3019000" />
+      <workItem from="1692707729270" duration="3335000" />
+      <workItem from="1692711429223" duration="134000" />
+      <workItem from="1692711741527" duration="1425000" />
+      <workItem from="1692749270872" duration="8740000" />
     </task>
     <task id="LOCAL-00001" summary="主机保存">
       <option name="closed" value="true" />
@@ -213,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692675324393</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="8.22">
+      <option name="closed" value="true" />
+      <created>1692711367812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692711367812</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
